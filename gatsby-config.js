@@ -14,6 +14,7 @@ const settings = require("./src/util/site.json")
 
 module.exports = {
   siteMetadata: settings.meta,
+  pathPrefix: "/aoperat-kontroperat-website",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,

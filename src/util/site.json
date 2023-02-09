@@ -2,11 +2,10 @@
   "meta": {
     "title": "Kontroperat",
     "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
-    "siteUrl": "https://foundation.stackrole.com",
-    "image": "/assets/stackrole.png",
-    "iconimage": "/assets/stackrole.png",
-    "twitterUsername": "@stackrole"
+    "description": "Zajmujemy się wykonywaniem kontroperatów.",
+    "siteUrl": "https://kontroperat.pl",
+    "image": "/assets/aoperat-logo-transparent.png",
+    "iconimage": "/assets/aoperat-logo-transparent.png"
   },
   "ga": "UA-XXXXXXXXX-X"
 }

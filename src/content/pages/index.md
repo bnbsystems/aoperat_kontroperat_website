@@ -2,10 +2,10 @@
 template: index-page
 slug: /
 carouselItems:
-  - image: /assets/pexels-andrea-piacquadio-927022.jpg
+  - image: /assets/pexels-andrea-piacquadio-3760072.jpg
     text: Szybko dostarczamy kontroperaty
     redirectTo: /about
-  - image: /assets/pexels-lisa-fotios-1006293.jpg
+  - image: /assets/pexels-ekaterina-bolovtsova-6077354.jpg
     text: Sprawdź naszą ofertę
     redirectTo: /services
   - image: /assets/pexels-pixabay-263564.jpg

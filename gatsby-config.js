@@ -98,8 +98,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Foundation`,
-        short_name: `Foundation`,
+        name: `Kontroperat`,
+        short_name: `Kontroperat`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#4C9C62`,

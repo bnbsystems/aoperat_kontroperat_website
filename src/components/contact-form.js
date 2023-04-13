@@ -11,48 +11,48 @@ export default function ContactForm () {
           method="POST"
         >
           <input type="hidden" name="form-name" value="contact" />
-          <p>
-            <label>
+          <div>
+            <label htmlFor="name">
               Imię i nazwisko
-              <input type="text" name="name" required />
             </label>
-          </p>
-          <p>
-            <label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div>
+            <label htmlFor="email">
               Email
-              <input type="email" name="email" required />
             </label>
-          </p>
-          <p>
-            <label>
-              Nr telefonu
-              <input type="text" name="phone" required />
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div>
+            <label htmlFor="phone">
+              Nr Telefonu
             </label>
-          </p>
-          <p>
-            <label>
+            <input type="text" name="phone" id="phone" required />
+          </div>
+          <div>
+            <label htmlFor="target">
               Cel wyceny
-              <input type="text" name="target" required />
             </label>
-          </p>
-          <p>
-            <label>
+            <input type="text" name="target" id="target" required />
+          </div>
+          <div>
+            <label htmlFor="valuation-subject">
               Przedmiot wyceny
-              <input type="text" name="objective" required />
             </label>
-          </p>
-          <p>
-            <label>
+            <input type="text" name="valuation-subject" id="valuation-subject" required />
+          </div>
+          <div>
+            <label htmlFor="name">
               Temat
-              <input type="text" name="subject" required />
             </label>
-          </p>
-          <p>
-            <label>
+            <input type="text" name="subject" id="subject" required />
+          </div>
+          <div>
+            <label htmlFor="message">
               Wiadomość
-              <textarea name="message" required></textarea>
             </label>
-          </p>
+            <textarea name="message" id="message" required />
+          </div>
           <p className="text-align-right">
             <button
               className="button mrb-button mrb-button-light"

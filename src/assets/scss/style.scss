@@ -117,6 +117,10 @@ $secondary-black-60: rgba(33, 35, 38, 0.6);
   box-shadow: none;
 }
 
+.is-full-width {
+  width: 100%;
+}
+
 .is-centered {
   display: flex;
   align-items: center;
@@ -501,9 +505,6 @@ article img {
 }
 .contact-form {
   margin-top: 36px;
-  label {
-    color: var(--label-text);
-  }
   .text-input {
     width: 100%;
     max-width: 100%;

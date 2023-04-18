@@ -81,20 +81,21 @@ export default function ContactForm () {
           <div className="mrb-text-div mt-6">
             Przed wyrażeniem zgody prosimy o zapoznanie się z <Link to="/terms-and-conditions">Regulaminem</Link> i <Link to="/privacy-policy">Polityką Prywantości</Link>. Wyrażenie zgody na kontakt drogą mailową i zaakceptowanie postanowień Polityki Prywatności oraz Regulaminu jest dobrowolne ale niezbędne do tego abyśmy mogli się z Tobą skontaktować. Zgodę można w każdej chwili cofnąć kontaktując się z Administratorem Danych Osobwych wskazanym w <Link to="/privacy-policy">Polityce Prywantości</Link>. 
           </div>
-          <p className="text-align-right">
+          <div className="text-align-right">
             <button
-              className="button mrb-button mrb-button-light"
+              className="mt-3 button mrb-button mrb-button-light is-full-width"
               sx={{
                 variant: "variants.button",
               }}
               type="submit"
+              disabled={state.submitting}
             >
               Wyślij wiadomość
             </button>
-          </p>
-          { state.success && 
-            <p className="is-color-primary-green">Wiadomość została wysłana</p>
+            { state.succeeded === true && 
+            <p className="is-color-primary-green is-centered mt-3">Wiadomość została wysłana</p>
           }
+          </div>
         </form>
       </div>
   )

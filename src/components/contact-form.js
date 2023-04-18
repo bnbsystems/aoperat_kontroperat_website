@@ -92,7 +92,7 @@ export default function ContactForm () {
               Wyślij wiadomość
             </button>
           </p>
-          { state.success && 
+          { state.succeeded && 
             <p className="is-color-primary-green">Wiadomość została wysłana</p>
           }
         </form>
